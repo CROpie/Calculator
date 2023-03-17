@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> 
+</head>
+
+<body>
+<div id="full-container">
+<div id="display-container">
+    <input id="tracker-display" disabled="true">
+    <input id="display" class="display" disabled="true">
+</div>
+<div id="display-container" >
+    <div id="displaydiv">
+
+    </div>
+</div>
+<div id="numbers-container" class="container">
+    <div id="top-row" class="row-container">
+        <button id="button-7" class="number button" value="7">7</button>
+        <button id="button-8" class="number button" value="8">8</button>
+        <button id="button-9" class="number button" value="9">9</button>
+    </div>
+    <div id="middle-row" class="row-container">
+        <button id="button-4" class="number button" value="4">4</button>
+        <button id="button-5" class="number button" value="5">5</button>
+        <button id="button-6" class="number button" value="6">6</button>
+    </div>
+    <div id="bottom-row" class="row-container">
+        <button id="button-1" class="number button" value="1">1</button>
+        <button id="button-2" class="number button" value="2">2</button>
+        <button id="button-3" class="number button" value="3">3</button>
+    </div>
+    <div id="zero-row">
+        <button id="button-0" class="number button" value="0">0</button>
+    </div>
+    <div id="button-container" class="container">
+        <button id="addition" class="operator button" value="+">+</button>
+        <button id="subtraction" class="operator button" value="-">-</button>
+        <button id="multiplication" class="operator button" value="*">*</button>
+        <button id="division" class="operator button" value="/">/</button>
+    </div>
+    <div id="equals-container" class="container">
+        <button id="equals" class="operator button" value="=">=</button>
+        <button id="clear" class="operator button">C</button>
+        <button id="modify" class="operator button">( ! )</button>
+        <button id="calculatemodify" class="operator button" hidden="true">(=)</button>
+    </div>
+</div>
+</div>
+</body>
+</html>

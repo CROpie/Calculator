@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#full-container {
+    border: solid black 3px;
+}
+
+.operator,
+.number {
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+}
+
+#display-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.row-container {
+    display: flex;
+}
+
+#tracker-display {
+    font-size: 12px;
+    height: 200px;
+}
+
+.display {
+    font-size: 60px;
+    color: black;
+    text-align: end;
+}
